@@ -1,0 +1,173 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: white;
+}
+
+#bio:hover {
+  color: #5ef1bc !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#servicios:hover {
+  color: #56308c !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#portfolio:hover {
+  color: #d952b5 !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#contacto:hover {
+  color: #a63889 !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#heart {
+  color: red;
+}
+
+#ig:hover {
+  color: #5ef1bc !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#behance:hover {
+  color: #56308c !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#linkedin:hover {
+  color: #d952b5 !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+#github:hover {
+  color: #a63889 !important;
+  transform: scale(1.15);
+  transition: all 1s;
+}
+
+.link{
+  background: -webkit-linear-gradient(
+  rgba(94, 242, 188) 0%,
+  rgba(86, 48, 140) 50%,
+  rgba(217, 82, 181) 72%,
+  rgba(166, 56, 137) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.background {
+  max-width: 100vw;
+  height: 90vh;
+}
+
+.background-colors {
+  max-width: 50vw;
+  height: 50vh;
+}
+
+.servicios{
+  height: 75vh;
+}
+
+.form-floating{
+  width: 100%;
+}
+
+.btn{
+  color: black;
+border-image: linear-gradient(
+    90deg,
+    rgba(94, 242, 188, 0.7) 0%,
+    rgba(86, 48, 140, 0.7) 50%,
+    rgba(217, 82, 181, 0.7) 72%,
+    rgba(166, 56, 137, 0.7) 100%
+)1;
+box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+font-weight: bold;
+transition: all 1s;
+width: 8rem;
+}
+
+.btn:hover{
+  color: white;
+background-image: linear-gradient(
+    90deg,
+    rgba(94, 242, 188) 0%,
+    rgba(86, 48, 140) 50%,
+    rgba(217, 82, 181) 72%,
+    rgba(166, 56, 137) 100%
+  );
+transform: scale(1.05);
+}
+
+.card{
+  flex-wrap: wrap;
+  max-width: 80%;
+}
+
+.card img {
+  max-width: 100%;
+}
+
+.card--F2ACD3,
+.card--F29BDB,
+.card--D977C8,
+.card--7EB6D9,
+.card--9BEAF2 {
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+  transition: all 1s;
+  max-width: 70%;
+}
+
+.card--F2ACD3:hover,
+.card--F29BDB:hover,
+.card--D977C8:hover,
+.card--7EB6D9:hover,
+.card--9BEAF2:hover {
+  background: linear-gradient(
+    rgba(94, 242, 188),
+    rgba(86, 48, 140),
+    rgba(217, 82, 181),
+    rgba(166, 56, 137)
+  );
+  transform: scale(1.05);
+}
+
+form{
+  width: 80%;
+  transition: all 1s;
+}
+
+
+@media (min-width: 728px) {
+  form{
+    width: 50%;
+    transition: all 1s;
+  }
+  
+}
+
+@media (min-width: 1024px) {
+  .carousel img{
+  height: 92vh;
+  }
+  
+}
+
+
