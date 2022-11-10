@@ -61,11 +61,6 @@ main .background-colors {
   max-width: 50vw;
   height: 50vh;
 }
-main .link {
-  background: -webkit-linear-gradient(rgb(94, 242, 188) 0%, rgb(86, 48, 140) 50%, rgb(217, 82, 181) 72%, rgb(166, 56, 137) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
 main .col-8 {
   width: 100vw;
 }
@@ -74,6 +69,11 @@ main .col-8 img {
 }
 main .row img {
   max-width: 30%;
+}
+main .link {
+  background: -webkit-linear-gradient(rgb(94, 242, 188) 0%, rgb(86, 48, 140) 50%, rgb(217, 82, 181) 72%, rgb(166, 56, 137) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 form {
