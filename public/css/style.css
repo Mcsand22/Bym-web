@@ -5,6 +5,24 @@
   box-sizing: border-box;
 }
 
+@media (min-width: 728px) {
+  form {
+    max-width: 50%;
+    transition: all 1s;
+  }
+  .servicios {
+    width: 15vw;
+    transition: all 1s;
+  }
+}
+@media (min-width: 1024px) {
+  main .contacto {
+    height: 92vh;
+  }
+  main .servicios {
+    width: 8vw;
+  }
+}
 .navbar {
   background-color: white;
 }
@@ -65,10 +83,10 @@ main .col-8 {
   width: 100vw;
 }
 main .col-8 img {
-  max-width: 30%;
+  max-width: 30% !important;
 }
 main .row img {
-  max-width: 30%;
+  max-width: 30% !important;
 }
 main .link {
   background: -webkit-linear-gradient(rgb(94, 242, 188) 0%, rgb(86, 48, 140) 50%, rgb(217, 82, 181) 72%, rgb(166, 56, 137) 100%);
@@ -121,25 +139,6 @@ form .form-floating {
 .card .card--9BEAF2:hover {
   background: linear-gradient(rgb(94, 242, 188) 0%, rgb(86, 48, 140) 50%, rgb(217, 82, 181) 72%, rgb(166, 56, 137) 100%);
   transform: scale(1.05);
-}
-
-@media (min-width: 728px) {
-  form {
-    max-width: 50%;
-    transition: all 1s;
-  }
-  .servicios {
-    width: 15vw;
-    transition: all 1s;
-  }
-}
-@media (min-width: 1024px) {
-  main .contacto {
-    height: 92vh;
-  }
-  main .servicios {
-    width: 8vw;
-  }
 }
 
 /*# sourceMappingURL=style.css.map */
