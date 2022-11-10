@@ -1,7 +1,6 @@
 {
   "name": "by-m---web",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "sass --watch public/scss/style.scss public/css/style.css"
@@ -16,5 +15,6 @@
   "bugs": {
     "url": "https://github.com/Mcsand22/Bym-web/issues"
   },
-  "homepage": "https://github.com/Mcsand22/Bym-web#readme"
+  "homepage": "https://github.com/Mcsand22/Bym-web#readme",
+  "description": ""
 }
