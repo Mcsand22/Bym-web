@@ -1,12 +1,23 @@
 @media (min-width: 728px) {
-    form{
-        max-width: 50%;
-        transition: $transition;
-    }
+  form {
+    max-width: 50%;
+    transition: $transition;
+  }
+
+  .servicios {
+    width: 15vw;
+    transition: $transition;
+  }
 }
 
 @media (min-width: 1024px) {
-    main {
-        height: 92vh;
-    }        
+  main {
+    .contacto {
+      height: 92vh;
+    }
+
+    .servicios {
+      width: 8vw;
+    }
+  }
 }

@@ -1,29 +1,29 @@
-.navbar{
-    background-color: white;
-        .nav-link{
-            #bio:hover{
-                color: $first-color !important;
-                transform: scale(1.15);
-                transition: all 1s;
-            }
-            
-            #servicios:hover {
-                color: $second-color !important;
-                transform: scale(1.15);
-                transition: all 1s;
-            }
-            
-            #portfolio:hover{
-                color: $third-color !important;
-                transform: scale(1.15);
-                transition: all 1s;
-            }
-        
-            #contacto:hover {
-                color: $fourth-color !important;
-                transform: scale(1.15);
-                transition: all 1s;
-            }
+.navbar {
+  background-color: white;
 
+  .nav-item {
+    #bio:hover {
+      color: $first-color !important;
+      transform: scale(1.15);
+      transition: all 1s;
     }
+
+    #servicios:hover {
+      color: $second-color !important;
+      transform: scale(1.15);
+      transition: all 1s;
+    }
+
+    #portfolio:hover {
+      color: $third-color !important;
+      transform: scale(1.15);
+      transition: all 1s;
+    }
+
+    #contacto:hover {
+      color: $fourth-color !important;
+      transform: scale(1.15);
+      transition: all 1s;
+    }
+  }
 }
