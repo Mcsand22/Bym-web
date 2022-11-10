@@ -1,0 +1,32 @@
+footer {
+    #heart {
+        color: red;
+    }
+    .redes{
+    
+        #ig:hover {
+            color: $first-color !important;
+            transform: scale(1.15);
+            transition: all 1s;
+        }
+
+        #behance:hover{
+            color: $second-color !important;
+            transform: scale(1.15);
+            transition: all 1s;
+        }
+
+        #linkedin:hover{
+            color: $third-color !important;
+            transform: scale(1.15);
+            transition: all 1s;
+        }
+
+        #github:hover {
+            color: $fourth-color !important;
+            transform: scale(1.15);
+            transition: all 1s;
+        }
+
+    }
+}

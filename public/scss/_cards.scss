@@ -1,0 +1,25 @@
+.card{
+    flex-wrap: wrap;
+    max-width: 80%;
+
+        img{
+            max-width: 100%;
+        }
+
+        .card--F2ACD3,
+        .card--F29BDB,
+        .card--D977C8,
+        .card--7EB6D9,
+        .card--9BEAF2 {
+            box-shadow: $box-shadow-card;
+            transition: $transition;
+            max-width: 70%;
+
+            &:hover {
+                background: linear-gradient(
+                 $rgba-gradient   
+                );
+                transform: $transform;
+            }
+        }
+}

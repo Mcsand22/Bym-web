@@ -1,0 +1,12 @@
+@media (min-width: 728px) {
+    form{
+        max-width: 50%;
+        transition: $transition;
+    }
+}
+
+@media (min-width: 1024px) {
+    main {
+        height: 92vh;
+    }        
+}

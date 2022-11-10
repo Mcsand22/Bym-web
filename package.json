@@ -1,0 +1,20 @@
+{
+  "name": "by-m---web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch public/scss/style.scss public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mcsand22/Bym-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mcsand22/Bym-web/issues"
+  },
+  "homepage": "https://github.com/Mcsand22/Bym-web#readme"
+}
