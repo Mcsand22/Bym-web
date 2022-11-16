@@ -149,4 +149,8 @@ body .contacto form .form-floating {
   transform: scale(1.05);
 }
 
+main .carousel-item {
+  height: 70vh;
+}
+
 /*# sourceMappingURL=style.css.map */
