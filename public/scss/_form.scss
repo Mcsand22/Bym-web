@@ -1,8 +1,17 @@
-form {
-    width: 80%;
-    transition: $transition;
+body{
 
-        .form-floating{
-            width: 100%;
+    .contacto {
+
+        form {
+            width: 80%;
+            transition: $transition;
+        
+                .form-floating{
+                    width: 100%;
+                }
         }
-}
+    }
+
+    }
+
+

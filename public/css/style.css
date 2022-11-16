@@ -102,11 +102,11 @@ body .body__home {
   height: 100vh;
 }
 
-form {
+body .contacto form {
   width: 80%;
   transition: all 1s;
 }
-form .form-floating {
+body .contacto form .form-floating {
   width: 100%;
 }
 
