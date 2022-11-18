@@ -10,9 +10,12 @@
   }
 
   .background-colors {
-    display: block!important;
+    display: block !important;
     max-width: 50vw;
     height: 50vh;
+  }
+  .carousel-item {
+    height: 70vh;
   }
 }
 

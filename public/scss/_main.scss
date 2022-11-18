@@ -27,4 +27,19 @@ main {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  h1,
+  h3,
+  h5 {
+    background: #0e0e0e;
+    box-shadow: 8px 8px 8px rgb(0 0 0 / 25%);
+    transform: rotate(-1deg);
+    color: white;
+    width: fit-content;
+  }
+
+  .main__servicios-desing,
+  .main__servicios-developer {
+    width: 70vw;
+  }
 }
